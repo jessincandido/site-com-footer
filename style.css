@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Gabarito:wght@400..900&family=Honk:MORF,SHLN@0..45,78.7&family=Unbounded:wght@200..900&display=swap');
+
+.menu {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #000000;
+    text-align: center;
+    box-shadow: 0 3px 10px 0 #ccc;
+    padding: 5px;
+    list-style: none;
+
+}
+
+.menu li {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    display: inline;
+    width: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    font-family: "Anek Telugu", sans-serif;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+.menu li a:hover {
+    background-color: rgb(117, 117, 117);
+}
+
+.menu li a i {
+    font-size: 24px;
+    color: #C0C0C0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.mapa {
+    text-align: center;
+    position: static;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.conteudo {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Gabarito", sans-serif;
+    margin: 0;
+    padding: 500;
+}
+
+footer {
+    background-color: #000000;
+    padding: 2px 2px;
+   
+}
+
+#footer-rodape {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 80px;
+    
+}
+
+#contatos {
+    margin-bottom: 0.75rem;
+    height: 200px;
+    
+}
+
+#contatos p {
+    text-align: center;
+    color: #FFFAFA;
+}
+
+#footer-copyright {
+    grid-column: 1 / -1; /* Ocupa todas as colunas */
+    text-align: center;
+    background-color: #000000;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    color: #FFFAFA;
+}
+#midia-social{
+    text-align: center;
+}
+
+#contatos h1{
+    text-align: left;
+    height: 80px;
+}
+.linkedin{
+    height: 60px;
+
+}
+.logo1{
+    height: 220px;
+}
